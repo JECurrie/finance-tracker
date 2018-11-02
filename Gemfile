@@ -1,6 +1,15 @@
 source 'https://rubygems.org'
 
 
+gem "sprockets", ">= 3.7.2"
+gem "ffi", ">= 1.9.24"
+gem "rails-html-sanitizer", ">= 1.0.4"
+gem "nokogiri", ">= 1.8.2"
+gem "loofah", ">= 2.2.3"
+gem "actionview", ">= 4.2.7.1"
+gem "activerecord", ">= 4.2.7.1"
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
